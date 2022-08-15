@@ -27,4 +27,6 @@ document.getElementById('submit-button').addEventListener('click', function(){
   newP = document.createElement('p');
   newP.innerText = newComment;
   textContainer.appendChild(newP);
+
+  textArea.value = '';
 })
