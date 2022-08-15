@@ -20,7 +20,11 @@ function bgPurpleOn(){
 }
 
 //white-button-
-const bgWhite = document.getElementById('white-button');
-bgWhite.onclick = function bgWhiteOn(){
-document.body.style.backgroundColor = 'white';
+function bgBlueOn(){
+document.body.style.backgroundColor = 'blue';
 }
+
+//goldenRod-button-
+document.getElementById('golden-rod').addEventListener('click', function(){
+  document.body.style.backgroundColor= 'pink'
+})
