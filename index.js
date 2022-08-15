@@ -18,3 +18,9 @@ bgPurple.onclick = bgPurpleOn;
 function bgPurpleOn(){
   document.body.style.backgroundColor= 'purple';
 }
+
+//white-button-
+const bgWhite = document.getElementById('white-button');
+bgWhite.onclick = function bgWhiteOn(){
+document.body.style.backgroundColor = 'white';
+}
